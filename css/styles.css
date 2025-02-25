@@ -27,7 +27,9 @@ ul{
     display:inline-block;
     color:white;
     font-size: 60px;
-    margin-left: 10px;
+    margin-left: 15px;
+    margin-bottom:15px;
+    margin-top:10px;
 }
 
 .nav{
@@ -39,7 +41,7 @@ ul{
 }
 .menu a{
     display:block;
-    padding:30px;
+    padding:25px;
     color:white;
 }
 .menu a:hover{
@@ -70,7 +72,7 @@ ul{
     display:block;
     height:100%;
     position:absolute;
-    transition: all .2s ease-out;
+    transition: all .5s ease-out;
     width:100%;
 }
 .hamb-line::before{
@@ -163,7 +165,7 @@ body:has(.side-menu:checked){
     filter:drop-shadow(2px 2px 2px gray);
 }
 
-.tartimg{
+.dessertimg{
     border-radius: 15%;
     width:200px;
     border: 5x solid #A6BF90;
