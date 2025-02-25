@@ -113,19 +113,22 @@ ul li a:hover{
 .pizzaimg{
     border-radius: 15%;
     width:200px;
-    border-color:white;
+    border: 20x solid #A6BF90;
+    filter:drop-shadow(2px 2px 2px gray);
 }
 
 .pastaimg{
     border-radius: 15%;
     width:200px;
-    border-color:white;
+    border: 5x solid #A6BF90;
+    filter:drop-shadow(2px 2px 2px gray);
 }
 
 .tartimg{
     border-radius: 15%;
     width:200px;
-    border-color:white;
+    border: 5x solid #A6BF90;
+    filter:drop-shadow(2px 2px 2px gray);
 }
 
 .contact{
