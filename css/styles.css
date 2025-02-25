@@ -1,7 +1,12 @@
 body{
     margin:0;
     padding:0;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat:none;
+    background-position: top right;
+    background-size: 100%;
+    color:white;
 }
 
 nav{
@@ -79,11 +84,30 @@ ul li a:hover{
     }
 }
 
-body{
-    background-image: url("https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-repeat:none;
-    background-position: top right;
-    background-size: 100%;
+.welcome{
+    background-color:#A6BF90;
+    text-align:center;
+    padding:10px;
+}
+
+.favorite{
+    text-align:center;
+    color:#C55528;
+}
+.pizza{
+    text-align:center;
+    padding:10px;
+    color:#6C724D
+}
+.pasta{
+    text-align:center;
+    padding:10px;
+    color:#6C724D
+}
+.dessert{
+    text-align:center;
+    padding:10px;
+    color:#6C724D
 }
 
 .pizzaimg{
@@ -102,4 +126,9 @@ body{
     border-radius: 15%;
     width:200px;
     border-color:white;
+}
+
+.contact{
+    text-align:center;
+    color:#C55528;
 }
